@@ -1,0 +1,235 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	display: inline-block;
+}
+
+/* div居中 */
+#col-center-block {
+	float: none;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* header 头部 */
+header {
+	background-image: url(../../img/wickedbackground2.png);
+	background-size: 1540px 450px;
+}
+
+/* nav导航栏 */
+body::before {
+	display: block;
+	content: '';
+	height: 52px;
+}
+
+#backgreen {
+	background-color: #66CC99;
+}
+
+#padding0 {
+	padding: 0;
+}
+
+.nav-logo {
+	float: left;
+	height: 45px;
+	margin-top: 5px;
+	overflow: hidden;
+}
+
+#padd15 {
+	padding: 15px 0;
+	padding-bottom: 40px;
+}
+
+.title .col-lg-4 {
+	padding-top: 20px;
+
+}
+
+.title strong {
+	font-size: 24px;
+}
+
+.title button {
+	margin-top: 110px;
+}
+
+.title .btn-success {
+	border: 2px solid white;
+	color: black;
+}
+
+.title .btn-default {
+	background-color: black;
+	color: white;
+}
+
+/* 产品介绍 */
+h1 {
+	font-weight: bold;
+	text-align: center;
+}
+
+.products h1 {
+	color: #66CC99;
+}
+
+.list li {
+	/* 光标呈现为指示链接的指针（一只手）*/
+	cursor: pointer;
+}
+	/* padding: 10px; */
+	/* 完全透明 */
+	/* 透明度 ie兼容写法 */
+
+#listCon {
+	width: 100%;
+	height: 100%;
+}
+
+#listCon Content {
+	display: none;
+}
+
+#listCon Content.act {
+	display: block;
+}
+
+.list li.act {
+	color: #66CC99;
+}
+
+#thumbnail {
+	text-align: left;
+	border: 1px solid #66CC99;
+	height: 110px;
+}
+
+#thumbnail img {
+	border-bottom: 1px solid #66cc99;
+	padding-bottom: 5px;
+	margin-left: 10px;
+	width: 33px;
+	height: 39px;
+}
+
+/* 景区智慧导览项目 */
+.project {
+	color: white;
+	background-image: url(../../img/city2.png);
+	background-position-x: 30px;
+	padding-bottom: 10px;
+	margin: 30px 0;
+}
+
+.project img {
+	width: 40px;
+}
+
+.project h2 {
+	color: white;
+}
+
+.project span {
+	margin: 0 80px;
+}
+
+/* 关于我们 */
+.about h1 {
+	color: #66CC99;
+}
+
+.text-muted {
+	font-size: 20px;
+	line-height: 35px;
+}
+
+.about .container .row .col-lg-6 {
+	padding: 0;
+}
+
+.about img {
+	height: 210px;
+	margin-left: 130px;
+}
+
+.about span {
+	color: #66CC99;
+}
+
+#borhid {
+	border: none;
+}
+
+.shadow {
+	/* height: 90px; */
+	box-shadow: -2px -2px 5px #D3D3D3;
+	background-color: white;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.backcolor2 {
+	background-color: #66CC99;
+	height: 60px;
+	margin-top: -40px;
+}
+
+/* <!-- 知识产权 --> */
+#thumbw {
+	height: 280px;
+}
+
+#thumbw span {
+	color: #66CC99;
+}
+
+.margin-top30 {
+	margin-top: 30px;
+}
+
+.backimg2 img {
+	width: 100%;
+}
+
+/* 联系我们 */
+#borhid2 {
+	border: none;
+}
+
+#borhid2 h4 {
+	font-weight: bold;
+}
+
+#borhid2 span {
+	text-align: center;
+}
+
+#borhid2 .col-md-5 {
+	padding-left: 0px;
+	text-align: center;
+}
+
+.img-w30 img {
+	width: 30px;
+}
+
+.text-white {
+	color: white;
+}
+
+/* footer */
+footer span {
+	margin-left: 20px;
+}

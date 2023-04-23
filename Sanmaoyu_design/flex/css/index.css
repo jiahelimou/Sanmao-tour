@@ -1,0 +1,191 @@
+a{
+	text-decoration: none;
+}
+body{
+	width: 720px;
+	margin: 0 auto;
+	/* border:1px solid black; */
+}
+nav{
+	display: flex;
+	margin: 0 40px;
+	justify-content: space-between;
+}
+nav .item-2{
+	display: flex;
+	width: 300px;
+	justify-content: space-between;
+	padding-top: 15px;
+}
+nav .item-2 a{
+	text-decoration: none;
+	color: #777777;
+}
+nav .item-2 a.active{
+	font-weight: bold;
+}
+header{
+	padding: 30px 0;
+	background-image: url(../../img/wickedbackground2.png);
+}
+header p{
+	font-size: 18px;
+	margin-bottom: 110px;
+}
+header strong{
+	font-size: 24px;
+}
+.btn-success{
+	border: 2px solid white;
+	background-color: #5cb85c;
+	padding: 8px 10px;
+	border-radius: 5px;
+}
+.btn-default{
+	background-color: black;
+	padding: 5px 10px;
+	border-radius: 5px;
+	color: white;
+}
+#p36{
+	font-size: 36px;
+	color: #66CC99;
+}
+.products font{
+	color: white;
+	margin: 0 15px;
+}
+.products a{
+	font-size: 20px;
+	color: #666666;
+}
+.products a.active{
+	color: #66cc99;
+	text-decoration: underline;
+}
+.products a:hover{
+	color: #66cc99;
+	text-decoration: underline;
+}
+.products #container{
+	/*  */
+	display: flex;/* 即项目的排列方向 */
+	justify-content: space-around;/*定义了项目在主轴上的对齐方式。*/
+}
+.thumbnail{
+	width: 330px;
+	border:1px solid #66CC99;
+	height: 110px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+}
+.thumbnail img{
+	border-bottom: 1px solid #66cc99;
+	padding-bottom: 5px;
+	margin: 5px 0 8px 10px;
+}
+.thumbnail span{
+	margin-left: 10px;
+}
+/* 景区智慧导览项目 */
+.project{
+	color: white;
+	background-image:url(../../img/city2.png);
+	background-position-x: 30px;
+	margin: 30px 0;
+	padding-top: 1px;
+	padding-bottom: 25px;
+}
+.project p{
+	font-size: 32px;
+}
+.project #container{
+	display: grid;
+	grid-template-columns:250px 250px;
+	justify-content: space-around ;
+}
+.project img{
+	margin-bottom: -15px;
+	width: 40px;
+}
+.text-muted{
+	padding: 0 45px;
+}
+.text-muted p{
+	color: #777;
+	font-size: 20px;
+	line-height: 35px;
+}
+.about #container{
+	box-shadow: -2px -2px 5px #D3D3D3;
+	padding-bottom: 40px;
+	margin: 0 20px;
+}
+.about .con{
+	/*  */
+	display: flex;/* 即项目的排列方向 从左向右*/
+	justify-content: space-around;/*定义了项目在主轴上的对齐方式。 */ 
+}
+.about .con .item{
+	width: 100px;
+	margin-bottom: 20px;
+}
+.about p{
+	font-size: 20px;
+}
+.about span{
+	color: #66CC99;
+}
+.backcolor2{
+	background-color: #66CC99;
+	height: 50px;
+	margin-top: -20px;
+}
+.knowledge #container{
+}
+.knowledge .item{
+	border: 1px solid #D3D3D3;
+	padding: 0 20px;
+	border-radius: 5px;
+	margin: 20px 30px;
+	height: 200px;
+}
+.knowledge span{
+	color: #66CC99;
+	font-size: 24px;
+}
+.knowledge small{
+	font-size: 16px;
+	color: #777;
+	line-height: 25px;
+}
+.backimg2 img{
+	width: 100%;
+}
+/* 小程序体验 */
+.experience .item-1{
+	display: flex;
+	justify-content: space-around;
+}
+.experience{
+	font-size: 14px;
+	margin: 0 30px;
+}
+.experience .item{
+	margin-bottom: 50px;
+}
+.experience img{
+	width: 30px;
+}
+.item-5 img{
+	width: 100%;
+}
+.item-6 img{
+	width: 100%;
+}
+footer p{
+	font-size: 14px;
+}
+footer span{
+	margin-left: 50px;
+}

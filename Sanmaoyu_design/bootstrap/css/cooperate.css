@@ -1,0 +1,150 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+/* 信息 */
+header .row .col-md-4 {
+	height: 68px;
+	background-color: #07092f;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+	color: white;
+}
+header .row .col-md-4 img {
+	width: 15px;
+	height: 15px;
+	margin-right: 5px;
+}
+
+/* 横幅 */
+.banner .row .col-md-4 {
+	height: 88px;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+.banner .name a {
+	font-size: 30px;
+	font-weight: bold;
+	letter-spacing: 10px;
+	color: white;
+	text-decoration: none;
+}
+.banner .nav a  {
+	color: black;
+	font-size: 18px;
+}
+.banner .button button {
+	border: 1px solid white;
+	padding: 10px 20px;
+	background-color: white;
+}
+@media (min-width:768px) {
+	.news-input{
+		width: 50%;
+	}
+}
+body::before{
+	display: block;
+	content: '';
+}
+.img45{
+	height: 45px;
+}
+#navmenu a{
+	text-decoration: none;
+}
+#navmenu a.active{
+	font-weight: bold;
+	text-decoration:underline;
+}
+/* banner */
+.backimg{
+	background-image: url(../../img/backimg.png);
+	background-size:2000px ;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 580px;
+}
+.backimg p{
+	font-size: 50px;
+	padding-top: 140px;
+}
+/* 你想让它在800px左右 背景图片消失 */
+@media only screen and (max-width: 1350px) { 
+    .backimg2{
+		background: none ;
+    }
+}
+
+/* 入驻 */
+.Settled {
+	padding: 50px 0;
+}
+
+/* 定制 */
+ol{
+	float: right;
+	font-size: 17px;
+}
+.right{
+	float: right;
+}
+/* div居中 */
+#col-center-block{
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.backcolor3{
+	background-color: #F5F5F5;
+}
+
+/* 版权 */
+.collaboration .row {
+	height: 200px;
+	display: flex;
+	align-items: center;
+}
+.collaboration .row img {
+	float: right;
+}
+/* 你想让它在800px左右 背景图片消失 */
+@media only screen and (max-width: 1400px) { 
+    .backimg4{
+		background: none ;
+    }
+}
+.backimg5{
+	background-image:url(../../img/customize.png);
+	background-repeat: no-repeat;
+	background-position-x:140px;
+	height: 100%;
+	float: right;
+	position: relative;
+}
+/* 你想让它在800px左右 背景图片消失 */
+@media only screen and (max-width: 1400px) { 
+    .backimg5{
+		background: none ;
+    }
+}
+
+
+
+/* Process */
+.Process .card {
+	height: 60px;
+	top: 30%;
+}
+
+/* welcome */
+.welcome .frame img {
+	border: 1px solid whitesmoke;
+	box-shadow: 12px 12px 2px 1px whitesmoke;
+}
+.box-success{
+	border: 2px solid #66CC99;
+}

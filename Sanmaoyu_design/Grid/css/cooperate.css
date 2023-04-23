@@ -1,0 +1,147 @@
+body{
+	width: 720px;
+}
+nav{
+	display: grid;
+	grid-template-columns:180px auto ;
+}
+nav img{
+	float: right;
+}
+nav .item-2{
+	display: grid;
+	grid-template-columns:repeat(4,auto) ;
+	padding-top: 15px;
+	padding-left: 200px;
+}
+nav .item-2 a{
+	text-decoration: none;
+	color: #777777;
+}
+nav .item-2 a.active{
+	font-weight: bold;
+}
+header h1{
+	background-image: url(../../img/backimg.png);
+	background-size: 100%;
+	padding: 90px 0;
+	text-align: center;
+	/* padding-left: 280px; */
+	color: white;
+}
+.Settled h2{
+	color: ;
+	text-align: center;
+	color: #66CC99;
+}
+.Settled table{
+	margin: 0 auto;
+	color:#555;
+	font-size: 14px;
+}
+.Settled td.text-center{
+	text-align: center;
+}
+.Settled td span{
+	color: #66CC99;
+}
+.Settled2{
+	display: grid;
+	grid-template-columns:100px 590px;
+	font-size: 12px;
+	background-image: url(../../img/backimg2.png);
+	background-size: 100%;
+	margin-top: 30px;
+}
+.Settled2 img{
+	width: 75%;
+	float: right;
+}
+.customize{
+	margin: 0 20px;
+	font-size: 14px;
+}
+.customize img{
+	width: 50%;
+	margin-top: 30px;
+	margin-left: 70px;
+}
+.customize h2{
+	color: #66CC99;
+	text-align: center;
+}
+.customize p{
+	text-align: center;
+	color: #666;
+}
+.customize #container{
+	display: grid;
+	grid-template-columns:3fr 1fr ;
+}
+.cooperate{
+	background-color: #F5F5F5;
+	padding: 5px 0;
+}
+.cooperate h2{
+	color: #66CC99;
+	text-align: center;
+}
+.cooperate p{
+	text-align: center;
+	color: #666;
+}
+.cooperate img{
+	width: 100%;
+}
+.cooperate #container{
+	width: 420px;
+	height: 175px;
+	margin: 0 auto;
+	background-image: url(../../img/Collaboration%20process.png);
+	background-size: 100%;
+}
+.s1{
+	margin-top: 150px;
+	margin-left: 35px;
+}
+.s2{
+	margin-top: -140px;
+	margin-left:130px ;
+}
+.s3{
+	margin-top: 70px;
+	margin-left:230px ;
+}
+.s4{
+	margin-top: -140px;
+	margin-left:320px ;
+}
+.Welcome{
+	margin: 30px;
+	display: grid;
+	grid-template-columns:1fr 2fr ;
+}
+.Welcome .item-1 img{
+	width: 180px;
+	margin-left: 20px;
+}
+.Welcome .item-2 h4{
+	font-weight: bold;
+}
+.Welcome .item-2 span{
+	color: #66CC99;
+}
+.Welcome p{
+	font-size: 13px;
+}
+.Welcome button{
+	border: 2px solid #66CC99;
+	border-radius: 5px;
+	background-color: white;
+	padding: 5px 10px;
+	color: #66CC99;
+}
+footer{
+	background-color: black;
+	color: white;
+}

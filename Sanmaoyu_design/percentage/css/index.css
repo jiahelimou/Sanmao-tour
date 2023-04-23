@@ -1,0 +1,227 @@
+a{
+	text-decoration: none;
+}
+body{
+	width: 720px;
+	margin: 0 auto;
+	border:1px solid black;
+	max-width: 720px;
+	min-width: 360px;
+}
+.nav-img{
+	float: left;
+}
+.nav-test{
+	width: 70%;
+	float: right;
+}
+.nav-test ul{
+	list-style: none;
+}
+.nav-test ul li{
+	display: inline;
+	margin: 0 5%;
+}
+.nav-test ul li a{
+	color: #666666;
+}
+.nav-test ul li a.active{
+	font-weight: bold;
+}
+header{
+	padding: 30px 0;
+	background-image: url(../../img/wickedbackground2.png);
+}
+header p{
+	font-size: 18px;
+	margin-bottom: 110px;
+}
+header strong{
+	font-size: 24px;
+}
+.btn-success{
+	border: 2px solid white;
+	background-color: #5cb85c;
+	padding: 8px 10px;
+	border-radius: 5px;
+}
+.btn-default{
+	background-color: black;
+	padding: 5px 10px;
+	border-radius: 5px;
+	color: white;
+}
+#p36{
+	font-size: 36px;
+	color: #66CC99;
+}
+.products{
+	margin: 0 20px;
+}
+.products font{
+	color: white;
+	margin: 0 15px;
+}
+.products a{
+	font-size: 20px;
+	color: #666666;
+}
+.products a.active{
+	color: #66cc99;
+	text-decoration: underline;
+}
+.products a:hover{
+	color: #66cc99;
+	text-decoration: underline;
+}
+.products .item{
+	margin-bottom: 2%;
+	margin-right: 2%;
+}
+.products .item-1{
+	float: left;
+	width: 48%;
+}
+.products .item-2{
+	float: right;
+	width: 48%;
+}
+.products .item-3{
+	float: left;
+	width: 48%;
+}
+.products .item-4{
+	float: right;
+	width: 48%;
+}
+.thumbnail{
+	/* width: 60%; */
+	border:1px solid #66CC99;
+	height: 110px;
+	border-radius: 5px;
+}
+.thumbnail img{
+	border-bottom: 1px solid #66cc99;
+	padding-bottom: 5px;
+	margin: 5px 0 8px 10px;
+}
+.thumbnail span{
+	margin-left: 10px;
+}
+/* 景区智慧导览项目 */
+.project{
+	color: white;
+	background-image:url(../../img/city2.png);
+	background-position-x: 30px;
+	margin: 30px 0;
+	padding-top: 1px;
+	padding-bottom: 25px;
+}
+.project p{
+	font-size: 32px;
+}
+.project #container{
+	display: grid;
+	grid-template-columns:250px 250px;
+	justify-content: space-around ;
+}
+.project img{
+	margin-bottom: -15px;
+	width: 40px;
+}
+.text-muted{
+	padding: 0 45px;
+}
+.text-muted p{
+	color: #777;
+	font-size: 20px;
+	line-height: 35px;
+}
+.about #container{
+	box-shadow: -2px -2px 5px #D3D3D3;
+	padding-bottom: 40px;
+	margin: 0 20px;
+}
+.about .con1{
+	width: 45%;
+	float: left;
+}
+.about .con2{
+	padding-top: 0.1%;
+}
+.about p{
+	font-size: 20px;
+}
+.about span{
+	color: #66CC99;
+}
+.backcolor2{
+	background-color: #66CC99;
+	height: 50px;
+}
+.knowledge #container{
+}
+.knowledge .item{
+	width: 85%;
+	height: 30%;
+	border: 1px solid #D3D3D3;
+	padding: 0 20px;
+	border-radius: 5px;
+	margin-bottom: 3%;
+}
+.knowledge span{
+	color: #66CC99;
+	font-size: 24px;
+}
+.knowledge small{
+	font-size: 16px;
+	color: #777;
+	line-height: 25px;
+}
+.backimg2 img{
+	width: 100%;
+}
+/* 小程序体验 */
+.experience #container{
+	padding: 0 4%;
+}
+.experience{
+	font-size: 14px;
+}
+.experience .item-1{
+	margin: 0 15%;
+	margin-bottom: 30%;
+}
+.experience .item-1 .item{
+	width:20%;
+}
+.experience .item-1 .item-5{
+	float: left;
+}
+.experience .item-1 .item-6{
+	float: right;
+}
+.experience .item-2 img{
+	width: 5%;
+}
+.experience .item-2{
+	margin-bottom: 20%;
+}
+.experience .item-3 img{
+	width: 5%;
+}
+#container2 {
+	margin-top: 20%;
+}
+#container2 img{
+	width: 5%;
+}
+#container2 .item-2{
+	margin-bottom: 10%;
+}
+footer p{
+	font-size: 14px;
+}
+footer span{
+	margin-left: 50px;
+}

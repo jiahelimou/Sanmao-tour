@@ -1,0 +1,117 @@
+body{
+	width: 720px;
+	border: 1px solid red;
+}
+nav{
+	display: flex;
+	margin: 0 40px;
+	justify-content: space-between;
+}
+nav .item-2{
+	display: flex;
+	width: 300px;
+	justify-content: space-between;
+	padding-top: 15px;
+}
+nav .item-2 a{
+	text-decoration: none;
+	color: #777777;
+}
+nav .item-2 a.active{
+	font-weight: bold;
+}
+header h1{
+	background-image: url(../../img/backimg.png);
+	background-size: 100%;
+	padding: 90px 0;
+	text-align: center;
+	/* padding-left: 280px; */
+	color: white;
+}
+.Settled h2{
+	text-align: center;
+	color: forestgreen;
+}
+.Settled table{
+	width:400px;
+	margin: 0 auto;
+	color:#555;
+	font-size: 14px;
+}
+.Settled td{
+	text-align: center;
+	padding: 0 5px;
+}
+.Settled td span{
+	color: #66CC99;
+}
+.Settled2{
+	margin: 50px auto;
+	width: 420px;
+}
+h2{
+	text-align: center;
+	color: forestgreen;
+}
+.customize{
+	margin: 0 20px;
+}
+.customize p{
+	text-align: center;
+	color: #666;
+}
+.customize #container{
+	display: flex;
+	justify-content: center;
+}
+.cooperate{
+	background-color: #F5F5F5;
+	padding: 5px 0;
+}
+.cooperate p{
+	text-align: center;
+	color: #666;
+}
+.cooperate .img{
+	display: flex;
+	justify-content: center;
+}
+.cooperate #container{
+	display: flex;
+	justify-content:center;
+}
+.cooperate #container .item{
+	border:1px solid #D3D3D3;
+	padding: 15px 80px;
+	margin: 5px 10px;
+}
+
+.Welcome{
+	margin: 30px;
+	display: grid;
+	grid-template-columns:1fr 2fr ;
+}
+.Welcome .item-1 img{
+	width: 180px;
+	margin-left: 20px;
+}
+.Welcome .item-2 h4{
+	font-weight: bold;
+}
+.Welcome .item-2 span{
+	color: #66CC99;
+}
+.Welcome p{
+	font-size: 13px;
+}
+.Welcome button{
+	border: 2px solid #66CC99;
+	border-radius: 5px;
+	background-color: white;
+	padding: 5px 10px;
+	color: #66CC99;
+}
+footer{
+	background-color: black;
+	color: white;
+}

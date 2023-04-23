@@ -1,0 +1,191 @@
+a{
+	text-decoration: none;
+}
+body{
+	width: 720px;
+	margin: 0 auto;
+	/* border:1px solid black; */
+}
+nav{
+	display: grid;
+	grid-template-columns:180px auto ;
+}
+nav img{
+	float: right;
+}
+nav .item-2{
+	display: grid;
+	grid-template-columns:repeat(4,auto) ;
+	padding-top: 15px;
+	padding-left: 200px;
+}
+nav .item-2 a{
+	text-decoration: none;
+	color: #777777;
+}
+nav .item-2 a.active{
+	font-weight: bold;
+}
+header{
+	padding: 30px 0;
+	background-image: url(../../img/wickedbackground2.png);
+}
+header p{
+	font-size: 18px;
+	margin-bottom: 110px;
+}
+header strong{
+	font-size: 24px;
+}
+.btn-success{
+	border: 2px solid white;
+	background-color: #5cb85c;
+	padding: 8px 10px;
+	border-radius: 5px;
+}
+.btn-default{
+	background-color: black;
+	padding: 5px 10px;
+	border-radius: 5px;
+	color: white;
+}
+#p36{
+	font-size: 36px;
+	color: #66CC99;
+}
+.products font{
+	color: white;
+	margin: 0 15px;
+}
+.products a{
+	font-size: 20px;
+	color: #666666;
+}
+.products a.active{
+	color: #66cc99;
+	text-decoration: underline;
+}
+.products a:hover{
+	color: #66cc99;
+	text-decoration: underline;
+}
+.products #container{
+	display: grid;
+	grid-template-columns:repeat(2,45%) ;
+	grid-template-columns:repeat(2,45%) ;
+	justify-content: space-around;
+	grid-row-gap:20px;
+}
+.thumbnail{
+	border:1px solid #66CC99;
+	height: 110px;
+	border-radius: 5px;
+}
+.thumbnail img{
+	border-bottom: 1px solid #66cc99;
+	padding-bottom: 5px;
+	margin: 5px 0 8px 10px;
+}
+.thumbnail span{
+	margin-left: 10px;
+}
+/* 景区智慧导览项目 */
+.project{
+	color: white;
+	background-image:url(../../img/city2.png);
+	background-position-x: 30px;
+	margin: 30px 0;
+	padding-top: 1px;
+	padding-bottom: 25px;
+}
+.project p{
+	font-size: 32px;
+}
+.project #container{
+	display: grid;
+	grid-template-columns:250px 250px;
+	justify-content: space-around ;
+}
+.project img{
+	margin-bottom: -15px;
+	width: 40px;
+}
+.text-muted{
+	padding: 0 45px;
+}
+.text-muted p{
+	color: #777;
+	font-size: 20px;
+	line-height: 35px;
+}
+.about #container{
+	display: grid;
+	grid-template-columns:250px 250px;
+	justify-content: space-around ;
+	grid-row-gap:30px;
+	box-shadow: -2px -2px 5px #D3D3D3;
+	padding-bottom: 40px;
+	margin: 0 20px;
+}
+.about p{
+	font-size: 20px;
+}
+.about span{
+	color: #66CC99;
+}
+.backcolor2{
+	background-color: #66CC99;
+	height: 50px;
+}
+.knowledge #container{
+	display: grid;
+	grid-template-columns:repeat(3,220px);
+	/* grid-template-rows: 100px 100px 100px; */
+	justify-content: space-around ;
+	height: 270px;
+}
+.knowledge .item{
+	border: 1px solid #D3D3D3;
+	padding: 0 20px;
+	border-radius: 5px;
+}
+.knowledge span{
+	color: #66CC99;
+	font-size: 24px;
+}
+.knowledge small{
+	font-size: 16px;
+	color: #777;
+	line-height: 25px;
+}
+.backimg2 img{
+	width: 100%;
+}
+/* 小程序体验 */
+.experience #container{
+	display: grid;
+	grid-template-columns:repeat(3,200px) ;
+	justify-content: space-around ;
+}
+.experience{
+	font-size: 14px;
+}
+.experience img{
+	width: 30px;
+}
+.item-1 #container{
+	display: grid;
+	grid-template-columns:repeat(2,90px);
+}
+.item-5 img{
+	width: 100%;
+}
+.item-6 img{
+	width: 100%;
+}
+footer p{
+	font-size: 14px;
+}
+footer span{
+	margin-left: 50px;
+}
